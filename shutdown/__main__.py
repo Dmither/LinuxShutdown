@@ -150,8 +150,7 @@ def main():
     lbl_message.pack(padx=5, pady=5)
 
     frm_buttons = tk.Frame(
-        master=frm_main,
-        background="#777"
+        master=frm_main
     )
     frm_buttons.pack()
 
